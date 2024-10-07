@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Flexbox layout for text and image sections */
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* Headings */
+h1 {
+    font-size: 36px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    color: #333;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+/* Input Section */
+.centered-section {
+    width: 48%;
+}
+
+.image-section {
+    width: 48%;
+    text-align: right;
+}
+
+.image-section img {
+    max-width: 75%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Leaderboard Section */
+.leaderboard-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.leaderboard {
+    width: 48%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.leaderboard ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.leaderboard li {
+    background-color: #fff;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    transition: background-color 0.2s ease;
+}
+
+.leaderboard li:hover {
+    background-color: #f1f1f1;
+}
+
+/* Results Section */
+.results {
+    margin-top: 20px;
+}
+
+.results p {
+    font-size: 18px;
+    color: #333;
+}
+
+#cost {
+    display: none;
+} 
+.centered-section {
+    width: 50%;
+}
